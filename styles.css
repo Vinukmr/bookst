@@ -1,0 +1,72 @@
+body {
+	background-color: #A9A9A9;
+	font-size: 16px;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+#header-nav{
+	background-color: #202020;
+	color: #333366;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo {
+	background: url('../images/anits.png') no-repeat ;
+	width: 100px;
+	height: 100px;
+	margin: 10px 0px 10px 0px;
+}
+.navbar-brand {
+	padding-top: 40px;
+}
+/*Anits lib..*/
+.navbar-brand h1{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #C0C0C0;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+#nav-list {
+	margin-top: 20px;
+}
+
+#nav-list a  {
+	color:#E0E0E0;  
+	text-align: center;
+}
+#nav-list a:hover {
+	background-color: #E7E7E7;
+	color:#202020;
+}
+#nav-list a span {
+	padding-bottom : 5px;
+	font-size: 1.7em;
+	/*align-font: center;*/
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid white;
+}
+
+/******large devices******/
+
+/*@media(min-width: 1200px)*/
+.jumbotron {
+	background: url('../images/slide.png');
+	height:400px;
+	box-shadow: 0 0 40px black;
+	border: 2px solid blue; 
+}
+
+/*
+@media(min-width: 992px) and (max-width: 1199px) {
+	.jumbotron{
+		background : ;
+	}
+}
+
+*/
